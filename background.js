@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "muteToggle",
     // using ACII emojis as a workaround for the lack of support for emojis in context menus
-    title: "🔔 Mute reminders",
+    title: "🔕 Mute",
     contexts: ["action"]
   });
 
