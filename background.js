@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
   // Create an alarm that triggers every hour
   chrome.alarms.create('smileReminder', {
     delayInMinutes: 1,
-    periodInMinutes: 1
+    periodInMinutes: 30
   });
 
   // Create context menu items
