@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminder</title>
+    <style>
+      body {
+        width: 500px;
+        height: 300px;
+        padding: 20px;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fff2e0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+      }
+
+      .main-gif {
+        display: block;
+        margin: 0 auto;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .ok-button {
+        padding: 5px 10px;
+        color: #5c5c5c;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-style: italic;
+        border: solid 2px #5c5c5c;
+        background-color: #fff2e0;
+      }
+
+      .ok-button:hover {
+        background-color: #ffe8cd;
+        border: solid 2px #1c1c1c;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="randomTitle">Stay Hydrated!</h1>
+      <img src="gifs/smile.gif" alt="gif" class="main-gif" />
+    </div>
+    <button class="ok-button" id="okButton">Okay, I promise!</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
